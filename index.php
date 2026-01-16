@@ -4,6 +4,7 @@ echo date('r');
 #phpinfo();
 #<span style="color: blue;">
 
+
 $host = 'localhost';
 $dbname = 'my_database';
 $username = 'db_user';
