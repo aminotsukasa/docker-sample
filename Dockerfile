@@ -1,6 +1,6 @@
 # ベースイメージ
-#FROM amazonlinux
-FROM redhat/ubi8:8.10
+FROM amazonlinux
+#FROM redhat/ubi8:8.10
 
 # ベースイメージ内のコマンドを実行して、イメージ内にphpなど必要なパッケージインストール
 RUN yum -y install php
